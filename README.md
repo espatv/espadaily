@@ -15,7 +15,7 @@
 
 <p align="center">
   <!-- Sube tus capturas a la carpeta 'capturas' y descomenta estas líneas -->
-  <!-- <img src="capturas/screenshot1.png" alt="EspaDaily en Kodi" width="600"> -->
+  <img src="capturas/screenshot1.png" alt="EspaDaily en Kodi" width="600">
   <!-- <br><br> -->
   <!-- <img src="capturas/screenshot2.png" alt="Categorías" width="600"> -->
 </p>
