@@ -105,7 +105,7 @@ Si quieres informar de algún problema, realizar una consulta o apoyar este proy
 
 **Contacto directo:**
 - [Telegram personal](https://t.me/rubensdfa1labernt)
-- [Donaciones y mensajes](https://fullstackcurso.github.io/donaciones/#mensaje)
+- [Formulario](https://fullstackcurso.github.io/donaciones/#mensaje)
 
 ---
 
