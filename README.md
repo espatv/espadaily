@@ -4,7 +4,7 @@
 
 ## Descripción
 
-**EspaDaily** es un potente addon para Kodi que combina la navegación por catálogos de TV española con un buscador universal de vídeo. Funciona como un agregador que permite explorar la estructura de plataformas como Atresplayer, RTVE Play y Mediaset Infinity, buscando automáticamente enlaces públicos disponibles en internet para cada contenido.
+**EspaDaily** es un addon para Kodi que combina la navegación por catálogos de televisión española con un buscador universal de vídeo. Permite explorar la estructura de las principales plataformas de TV en España, buscando vídeos públicos disponibles en internet para cada contenido.
 
 ### ⚠️ Aviso importante
 
@@ -49,14 +49,24 @@ Este es el método más sencillo ya que no requiere descargar archivos externos 
 
 ## 🧩 Características
 
-- **Explorador Unificado**: Navega por Series, Programas, Documentales e Informativos de las principales cadenas de España desde una sola interfaz.
+- **Explorador Unificado**: Navega por series, programas, documentales e informativos de televisión española desde una sola interfaz.
 - **Buscador Universal**: ¿No encuentras lo que buscas en los menús? Usa la búsqueda manual para localizar películas, series internacionales o cualquier vídeo en la red.
+- **Abrir URL**: Pega cualquier enlace (Dаіlуmоtіоn, YouTube, m3u8, mp4...) y reprodúcelo directamente en Kodi con detección inteligente.
+- **TV en Directo**: Acceso rápido a canales TDT en vivo y listas IPTV personalizadas.
+- **Listas de Trakt.tv**: Explora listas de películas y series de la comunidad Trakt.
+- **Tendencias y Top Películas**: Descubre lo más visto y las películas mejor valoradas de la historia.
 - **Integración con Palantir**: Conecta búsquedas con Palantir 3 para ampliar resultados.
 - **Instantáneas y Backups**: Crea copias de seguridad de los menús y de tu configuración para portabilidad total.
-- **Integración de Caché Híbrida**: Sistema inteligente que guarda los menús en tu dispositivo para una navegación ultra rápida, sin esperas de carga.
-- **Gestión de Favoritos e Historial**: Guarda tus vídeos preferidos para acceder rápidamente y organizalos de forma avanzada.
-- **Descargas**: Opción para descargar contenido y verlo offline (cuando el servidor lo permite).
-- **Sin publicidad, trackers ni software malicioso.**
+- **Caché Inteligente**: Guarda los menús en tu dispositivo para una navegación instantánea, sin esperas de carga.
+- **Gestión de Favoritos e Historial**: Guarda tus vídeos preferidos y organízalos de forma avanzada.
+- **Categorías Personalizadas**: Crea tus propias carpetas para organizar el contenido a tu gusto.
+- **Historial de Exploración**: Recuerda lo que has visto para retomarlo fácilmente.
+- **Filtros Anti-Trailers**: Evita clips cortos y encuentra capítulos completos (Modo Cine, Solo Recientes...).
+- **Descargas**: Guarda vídeos para verlos offline (cuando el servidor lo permite).
+- **Historial de Visionado**: Registro automático de los vídeos que has reproducido para retomarlos rápidamente.
+- **Playlists de Dаіlуmоtіоn**: Busca canales de Dаіlуmоtіоn y explora sus playlists organizadas.
+- **Opciones Avanzadas**: Panel completo de configuración con contexto multinivel de búsqueda, priorización por precisión o duración, filtro temporal, modos anti-errores y múltiples modos de descarga.
+- **Privacidad Responsable**: Solo se envía un identificador anónimo para contar instalaciones activas. Sin datos personales ni seguimiento de uso.
 
 ---
 
@@ -71,35 +81,32 @@ Este es el método más sencillo ya que no requiere descargar archivos externos 
 
 **EspaDaily** es un proyecto independiente desarrollado sin ánimo de lucro.
 
-1.  **No Afiliación**: Este software NO tiene relación con Atresplayer, RTVE, Mediaset ni ninguna otra entidad oficial.
-2.  **Agregador de Búsqueda**: El addon NO aloja, sube ni distribuye contenido protegido. Actúa exclusivamente como un motor de búsqueda automatizado que indexa contenido ya disponible públicamente en internet.
-3.  **Responsabilidad**: El usuario es el único responsable del uso de la herramienta y de verificar la legalidad del acceso a los contenidos en su jurisdicción.
-4.  Este addon se proporciona "tal cual", sin garantías de ningún tipo.
+1.  **No Afiliación**: Este software NO tiene relación con Аtrеѕрlаyеr, RТVЕ, Меdіаѕеt ni ninguna otra entidad oficial.
+2.  **Buscador**: El addon NO aloja, sube ni distribuye contenido protegido. Actúa como un buscador de vídeos disponibles públicamente en internet.
+3.  **Solo Interfaz**: El código público solo dibuja los menús de Kodi. Los vídeos provienen de conexiones externas.
+4.  **Responsabilidad**: El usuario es el único responsable del uso de la herramienta y de verificar la legalidad del acceso a los contenidos en su jurisdicción.
+5.  **Voluntad de Cooperación**: Disposición total para colaborar con titulares de derechos para la retirada inmediata de enlaces específicos.
+6.  Este addon se proporciona "tal cual", sin garantías de ningún tipo.
 
 ---
 
 ## 💬 Contacto y Soporte
 
-Si quieres informar de algún problema, realizar una consulta o apoyar este proyecto, puedes visitar:
+Si quieres informar de algún problema, realizar una consulta o apoyar este proyecto:
 
-👉 **[Donaciones y Contacto](https://fullstackcurso.github.io/donaciones/#mensaje)**
+**Webs:**
+- [FullStackCurso](https://github.com/fullstackcurso)
+- [EspaKodi](https://github.com/espakodi)
+- [LoioLoio](https://github.com/loioloio)
+
+**Telegram:**
+- [Canal EspaDaily](https://t.me/espadaily)
+- [Canal EspaKodi](https://t.me/espakodi)
+
+**Contacto directo:**
+- [Telegram personal](https://t.me/rubensdfa1labernt)
+- [Donaciones y mensajes](https://fullstackcurso.github.io/donaciones/#mensaje)
 
 ---
-
-### 📖 Filosofía
-Este proyecto nace con la intención de **facilitar el acceso a la cultura audiovisual** y no de sustituir a los servicios oficiales. Cabe destacar que la gran mayoría de los enlaces encontrados por esta herramienta apuntan a contenidos de **baja resolución** (frecuentemente inferiores a 720p), lo que dista mucho de la experiencia *premium* que ofrecen las plataformas de pago.
-
-### Publicidad y Marketing Orgánico
-Paradójicamente, este tipo de acceso actúa a menudo como una puerta de entrada y una **potente herramienta de publicidad gratuita**. Ver un episodio suelto o un programa a través de estas vías puede llevar al usuario a comentarlo y compartirlo en redes sociales, generando un ruido digital y un marketing orgánico para la cadena original que, de otro modo, no existiría. Muchos usuarios descubren contenido aquí y, al engancharse, buscan una experiencia superior y mayor comodidad, terminando por **migrar a servicios de suscripción oficiales**.
-
-### Accesibilidad y Realidad Económica
-Quienes deciden permanecer consumiendo en baja calidad suelen hacerlo por **barreras económicas**, no por elección; esto significa que rara vez representan una pérdida real de clientes comerciales. Restringir este acceso no convierte a estos usuarios en suscriptores, sino que simplemente amplía la brecha cultural y limita el acceso a la información. 
-
-> Cuando la oferta oficial es sencilla, asequible y de calidad, el usuario tiende a elegirla naturalmente por encima de cualquier otra opción.
-
-### Preservación Histórica
-Finalmente, la presencia de estos archivos en la red cumple una función involuntaria de **preservación histórica**. Actúa como una "cápsula del tiempo" para contenido antiguo, descatalogado o de nicho que ya ha desaparecido de los catálogos comerciales, asegurando que estas obras no se pierdan para siempre en el olvido digital.
-
-___
 
 *Addon desarrollado por fullstackcurso*
