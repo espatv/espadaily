@@ -31,5 +31,5 @@
 3.  **Solo Interfaz**: El código público solo dibuja los menús de Kodi. Los vídeos provienen de conexiones externas.
 6.  Este addon se proporciona "tal cual", sin garantías de ningún tipo.
 7.  **Prohibición Estricta de Comercialización**: Queda terminantemente **PROHIBIDA** la inclusión, distribución o instalación pre-configurada de este addon en dispositivos ("TV Boxes", "Kodi Boxes", Android TV, etc.) destinados a la venta o lucro comercial. Este proyecto no tiene fines de lucro ni genera ingresos de ninguna clase.
-9.  **No recopila datos personales**: Solo recopila información de uso legítimo anónima (versión de Kodi, sistema operativo y versión del addon) para actualizar porcentajes estadísticos.
+9.  **No recopila datos personales**: Únicamente recoge estadísticas de uso 100% anónimas (versiones de Kodi, sistema operativo y versión del addon) para saber qué priorizar. Te lo contamos abiertamente porque, aunque ninguna ley obliga a avisar sobre recogida datos no personales, preferimos ser siempre honestos con la comunidad.
 10. **Sin Afiliación**: Este proyecto es independiente y no está afiliado ni avalado de ninguna manera por el equipo de Kodi o la Fundación XBMC.
