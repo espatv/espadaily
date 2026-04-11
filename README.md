@@ -2,7 +2,7 @@
 
 ![Kodi](https://img.shields.io/badge/Kodi-19%2B-blue?logo=kodi) ![Status](https://img.shields.io/badge/Estado-Activo-brightgreen)
 
-https://fullstackcurso.github.io/espadaily/
+Repositorio: https://fullstackcurso.github.io/espadaily/
 
 ## Aviso importante
 
