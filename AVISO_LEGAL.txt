@@ -47,9 +47,9 @@ Este software puede ofrecer funcionalidades de interoperabilidad con otros addon
  c) La instalación y uso de cualquier addon externo es decisión y responsabilidad exclusiva del usuario.
 
 PRIVACIDAD Y DATOS (GDPR)
-Este software recopila de forma automática datos técnicos anónimos con el único fin de conocer el número aproximado de instalaciones activas:
- a) Un identificador aleatorio (UUID) generado localmente, no vinculado a ningún dato personal ni a la identidad del usuario.
- b) La plataforma del dispositivo, la versión del addon y la versión de Kodi.
+Este software recopila de forma automática datos técnicos anónimos con el único fin de planificar el desarrollo, compatibilidad y soporte del addon:
+ a) Un identificador aleatorio (UUID) generado localmente, no vinculado a ningún dato personal ni a la identidad del usuario, usado para reconocer la misma instalación entre envíos y no duplicar registros.
+ b) La plataforma del dispositivo, la versión del addon, la versión de Kodi y la fecha del último uso (para descartar datos viejos).
  c) Estos datos se envían periódicamente a un servicio externo. La base jurídica de este tratamiento es el interés legítimo del desarrollador (Art. 6.1.f RGPD) en la mejora y mantenimiento del software.
  d) El desarrollador NO recopila ni almacena direcciones IP de los usuarios.
  e) El resto del procesamiento (favoritos, historial, búsquedas, preferencias) se realiza exclusivamente de forma local en el dispositivo del usuario.
