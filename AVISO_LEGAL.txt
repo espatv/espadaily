@@ -8,6 +8,8 @@ Se declara explícitamente que este proyecto es una iniciativa de desarrollo de 
 
 NATURALEZA TÉCNICA Y OBJETO
 Este software ("EspaDaily") es una herramienta que actúa como interfaz de presentación entre Kodi y plataformas de contenido audiovisual, adaptando para este entorno multimedia información y referencias procedentes de contenido accesible públicamente en las mismas condiciones técnicas en que lo haría cualquier navegador web convencional.
+Este addon no aloja contenido ni distribuye enlaces, sino que realiza búsquedas en tiempo real. No existe una base de datos interna de enlaces ni un repositorio precargado, ya que cada resultado se obtiene dinámicamente al ejecutar la consulta del usuario.
+Cualquier resultado mostrado es públicamente accesible mediante un navegador web convencional. El addon no aporta acceso privilegiado ni distinto del que tendría cualquier usuario navegando manualmente con sus propias credenciales.
 
 AUSENCIA DE ALOJAMIENTO Y DISTRIBUCIÓN
 En relación al funcionamiento técnico del software, se hace constar expresamente que:
@@ -30,6 +32,9 @@ Los resultados que muestra este software provienen íntegramente de plataformas 
  c) La responsabilidad sobre la legalidad del contenido alojado recae exclusivamente en la plataforma de alojamiento y en el usuario que lo subió, conforme a los regímenes de responsabilidad de intermediarios (Directiva 2000/31/CE en la UE, DMCA §512 en EE.UU.).
  d) Si un titular de derechos detecta contenido infractor en dichas plataformas, debe dirigir su reclamación directamente a la plataforma de alojamiento a través de sus canales oficiales de retirada.
 
+AUSENCIA DE CURACIÓN EDITORIAL HUMANA
+El addon no realiza selección editorial humana ni moderación manual de los resultados que muestra. Aplica filtros y algoritmos automáticos para mejorar la relevancia técnica (precisión textual, idioma, fecha de publicación, duración, etc.), de forma análoga a cualquier motor de búsqueda. La fuente, disponibilidad y existencia de los contenidos depende exclusivamente de las plataformas de terceros consultadas. El desarrollador no preselecciona manualmente qué contenidos concretos aparecen ni los modera individualmente.
+
 PROPIEDAD INTELECTUAL Y MARCAS
 Todas las marcas comerciales, logotipos, carátulas y nombres mencionados en el software son propiedad exclusiva de sus respectivos dueños.
 Su uso en este software es estrictamente nominativo e informativo, amparado bajo el uso nominativo descriptivo permitido por el Art. 37.c) de la Ley de Marcas 17/2001, siendo dicho uso necesario para que el usuario identifique el contenido al que accede, y realizado conforme a las prácticas leales en materia industrial o comercial, sin sugerir patrocinio, afiliación ni endorsement por parte de los titulares. Este proyecto es una obra derivada independiente, sin ánimo de lucro, y NO tiene ninguna vinculación, patrocinio, afiliación ni autorización oficial de ninguna cadena de televisión ni plataforma de contenido.
@@ -45,14 +50,19 @@ Este software puede ofrecer funcionalidades de interoperabilidad con otros addon
  a) Son meros atajos de navegación que redirigen al software externo correspondiente.
  b) No implican que este proyecto desarrolle, mantenga, controle o sea responsable de la funcionalidad de dichos addons externos.
  c) La instalación y uso de cualquier addon externo es decisión y responsabilidad exclusiva del usuario.
+ d) La reproducción puede delegarse en un addon externo que el usuario haya instalado y configurado voluntariamente. EspaDaily no descifra contenido cifrado, no rompe sistemas de seguridad activos ni elude medidas técnicas de protección (DRM). Si un contenido requiere autenticación, esta se realiza exclusivamente dentro del addon externo correspondiente con las credenciales propias del usuario; EspaDaily no almacena, gestiona ni transmite dichas credenciales. El addon se limita a acceder a recursos servidos por el proveedor sin protección técnica aplicada en el momento del acceso.
 
 PRIVACIDAD Y DATOS (GDPR)
-Este software recopila de forma automática datos técnicos anónimos con el único fin de planificar el desarrollo, compatibilidad y soporte del addon:
- a) Un identificador aleatorio (UUID) generado localmente, no vinculado a ningún dato personal ni a la identidad del usuario, usado para reconocer la misma instalación entre envíos y no duplicar registros.
- b) La plataforma del dispositivo, la versión del addon, la versión de Kodi y la fecha del último uso (para descartar datos viejos).
- c) Estos datos se envían periódicamente a un servicio externo. La base jurídica de este tratamiento es el interés legítimo del desarrollador (Art. 6.1.f RGPD) en la mejora y mantenimiento del software.
- d) El desarrollador NO recopila ni almacena direcciones IP de los usuarios.
- e) El resto del procesamiento (favoritos, historial, búsquedas, preferencias) se realiza exclusivamente de forma local en el dispositivo del usuario.
+Responsable del tratamiento: RubénSDFA1laberot. Contacto a través de Telegram (canal indicado en el repositorio oficial).
+Este software recopila de forma automática datos técnicos pseudonimizados, sin vinculación con la identidad personal del usuario, con el único fin de saber qué versiones requieren soporte prioritario para mejorar el software y planificar su desarrollo:
+ a) Un identificador aleatorio (UUID) generado localmente, no vinculado a ningún dato personal ni a la identidad del usuario, cuyo único propósito es evitar contabilizar varias veces una misma instalación.
+ b) La plataforma del dispositivo, la versión del addon y la versión de Kodi.
+ c) Una marca temporal ("last_seen") que se actualiza con cada envío y permite eliminar periódicamente los registros de instalaciones inactivas.
+ d) Estos datos se envían periódicamente a un servicio externo. La base jurídica de este tratamiento es el interés legítimo del desarrollador (Art. 6.1.f RGPD) en la mejora y mantenimiento del software.
+ e) El desarrollador NO recopila ni almacena direcciones IP de los usuarios.
+ f) El usuario puede desactivar esta telemetría en cualquier momento eliminando el archivo "stats.json" ubicado en la carpeta de perfil del addon.
+ g) Los datos pueden tratarse en servidores ubicados fuera del Espacio Económico Europeo (EEE), bajo Cláusulas Contractuales Tipo (Standard Contractual Clauses) aprobadas por la Comisión Europea.
+ h) El resto del procesamiento (favoritos, historial, búsquedas, preferencias) se realiza exclusivamente de forma local en el dispositivo del usuario.
 Cualquier otra interacción de red (cookies, IPs) se realiza directamente entre el dispositivo del usuario y los servidores del proveedor de contenido, sujeta a las políticas de privacidad de dichos proveedores.
 
 LICENCIA
@@ -71,14 +81,21 @@ Al aceptar estos términos de uso, el usuario acepta la obtención y ejecución 
 
 AVISO SOBRE VERSIONES DERIVADAS
 Si decide publicar una versión modificada, le solicitamos que utilice un nombre distintivo (por ejemplo: "NombreAddon basado en EspaDaily") para evitar confusión entre los usuarios y no interferir con el soporte oficial del proyecto original.
+Asimismo, se ruega encarecidamente NO incluir este software en productos comerciales (cajas IPTV de pago, suscripciones, paquetes monetizados o cualquier modelo de redistribución con ánimo de lucro). El proyecto es gratuito por filosofía y su inclusión en productos de pago contradice el espíritu de la comunidad que lo desarrolla y mantiene.
 
 RECURSOS GRÁFICOS Y MARCA
-Los recursos gráficos (iconos, fanart, logotipos) y la marca "EspaDaily" son propiedad exclusiva del autor. Las obras derivadas NO pueden utilizar estos recursos gráficos originales sin permiso explícito, debiendo aportar sus propias imágenes para evitar la suplantación de identidad visual del proyecto oficial.
+Los recursos gráficos (iconos, fanart, logotipos) y la marca "EspaDaily" son propiedad exclusiva del autor y NO se distribuyen bajo licencia GPL, sino que se reservan todos los derechos. Las obras derivadas NO pueden utilizar estos recursos gráficos originales ni la marca "EspaDaily" sin permiso explícito y por escrito del autor, debiendo aportar sus propias imágenes y un nombre distintivo para evitar la suplantación de identidad visual del proyecto oficial. Queda expresamente prohibido el uso comercial no autorizado de la marca y de los recursos gráficos.
 
 CONTACTO PARA TITULARES DE DERECHOS
 Si usted es titular de derechos de propiedad intelectual y considera que algún elemento de este software pudiera afectar a sus derechos, le invitamos a contactar con el autor a través de los canales de contacto habilitados en el repositorio oficial antes de iniciar cualquier procedimiento formal, en la convicción de que cualquier discrepancia puede resolverse de forma ágil y amistosa.
 En su comunicación, le rogamos identifique con precisión el elemento concreto del código fuente que considera problemático y el derecho que estima vulnerado, de modo que el autor pueda analizar la situación y, si procede, adoptar las medidas correctoras oportunas.
 Existe voluntad total de cooperación.
 
+DIVISIBILIDAD
+Si alguna disposición de este Aviso Legal fuera declarada inválida o inaplicable por una autoridad competente, dicha invalidez no afectará al resto de disposiciones, que mantendrán su plena vigencia y efecto.
 
-Última actualización: abril 2026
+MODIFICACIONES DEL AVISO LEGAL
+El autor se reserva el derecho a modificar este Aviso Legal en cualquier momento. Los cambios se reflejarán en la fecha de "Última actualización" indicada al pie del documento. El uso continuado del software tras dichas modificaciones implica la aceptación de la versión vigente.
+
+
+Última actualización: mayo 2026
