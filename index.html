@@ -93,15 +93,15 @@
 
     <h3>Añadir vía repositorio</h3>
     <ol>
-        <li>En Kodi: <b>Ajustes</b> → <b>Explorador de archivos</b> → <b>Añadir fuente</b>.</li>
+        <li>En Kodi: <b>Ajustes</b> → <b>Gestor de archivos</b> → <b>Añadir fuente</b>.</li>
         <li>En <code>&lt;Ninguno&gt;</code> introducir esta dirección exacta:<br><br>
-            <b><code>https://fullstackcurso.github.io/espadaily/</code></b>
-            <div class="warn">Debe terminar en <code>.io/espadaily/</code>. La URL del navegador (github.com) devuelve
-                la carpeta vacía.</div>
+            <b><code>https://espatv.github.io/espadaily/</code></b>
+            <div class="warn">Debe terminar en <code>.io/espadaily/</code>. La URL que acaba en <code>.com</code> devuelve la carpeta vacía.</div>
         </li>
         <li>Asignar el nombre <code>espadaily</code> y aceptar.</li>
-        <li>Ir a <b>Add-ons</b> → <b>caja abierta</b> (arriba a la izquierda) → <b>Instalar desde archivo zip</b>.<br>
-            <small>(Si salta el aviso de seguridad: Ajustes → activar "Orígenes desconocidos").</small>
+        <li>Volver al menú principal de Kodi. En <b>Add-ons</b> → <b>caja abierta</b> (arriba a la izquierda) →
+            <b>Instalar desde archivo zip</b>.<br>
+            <small>(Si salta el aviso de seguridad: Ajustes → Sistema → Add-ons → activar "Orígenes desconocidos").</small>
         </li>
         <li>Seleccionar la fuente <code>espadaily</code> → <code>repository.espadaily-1.0.2.zip</code>.</li>
         <li>Cuando aparezca "Add-on instalado", ir a <b>Instalar desde repositorio</b> → <b>EspaDaily Repository</b> →
@@ -110,11 +110,19 @@
     </ol>
 
     <h3>Vía ZIP</h3>
+    <p>Misma instalación pero descargando el zip del repositorio directamente, sin configurar fuente:</p>
     <ol>
-        <li>Descargar el <code>.zip</code> desde <code>github.com/fullstackcurso/espadaily/releases</code></li>
-        <li>En Kodi: <b>Add-ons</b> → <b>caja</b> → <b>Instalar desde archivo zip</b> → seleccionar el archivo
+        <li>Descargar <code>repository.espadaily-1.0.2.zip</code> con el enlace de arriba.</li>
+        <li>En Kodi: <b>Add-ons</b> → <b>caja abierta</b> → <b>Instalar desde archivo zip</b> → seleccionar el archivo
             descargado.</li>
+        <li>Continuar como en el paso 6 de arriba: <b>Instalar desde repositorio</b> → <b>EspaDaily Repository</b> →
+            <b>Add-ons de vídeo</b> → <b>EspaDaily</b> → <b>Instalar</b>.</li>
     </ol>
+    <div class="warn">
+        Si en lugar del repo descargas e instalas el addon directo
+        (<code>plugin.video.espadaily-X.X.X.zip</code>), EspaDaily funciona pero
+        <b>no recibirás actualizaciones automáticas</b> al no tener el repositorio.
+    </div>
 
 </body>
 
