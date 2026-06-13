@@ -4,7 +4,7 @@
 
 Repositorio y más información: https://espatv.github.io/espadaily/
 
-## Verificación de integridad EspaDaily v4.0.3:
-- Tamaño:   364 155 bytes (355.6 KB)
-- SHA256: b0d80cf38d42a27d9f3279a7e09bde513cf14f1f58bc24de5438adc47c402b78
-- MD5: 8a95f897adb374e1ef403c621f02f465
+## Verificación de integridad EspaDaily v5.0.0:
+- Tamaño:   1 951 115 bytes (1905.4 KB)
+- SHA256: 3365040bcc52b453a30a3017651333d9bbfa4720fe20bc6b5413ddbdcaa75b3d
+- MD5: 78c339a6260047d8efafca32d8479fd2
